@@ -16,6 +16,11 @@
 		6FB571532C71FEED00E6A173 /* Project111Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB571522C71FEED00E6A173 /* Project111Tests.swift */; };
 		6FB5715D2C71FEED00E6A173 /* Project111UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5715C2C71FEED00E6A173 /* Project111UITests.swift */; };
 		6FB5715F2C71FEED00E6A173 /* Project111UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5715E2C71FEED00E6A173 /* Project111UITestsLaunchTests.swift */; };
+		6FB571702C72059000E6A173 /* BoyNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5716F2C7203F900E6A173 /* BoyNames.swift */; };
+		6FB571712C72079F00E6A173 /* GirlNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5716E2C7203E800E6A173 /* GirlNames.swift */; };
+		6FB571722C7207C200E6A173 /* FilmTitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5716D2C7203C000E6A173 /* FilmTitles.swift */; };
+		6FB571732C7207E300E6A173 /* PlanetNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5716C2C7203A200E6A173 /* PlanetNames.swift */; };
+		6FB571752C720AF300E6A173 /* OptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB571742C720AEE00E6A173 /* OptionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		6FB571582C71FEED00E6A173 /* Project111UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project111UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB5715C2C71FEED00E6A173 /* Project111UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project111UITests.swift; sourceTree = "<group>"; };
 		6FB5715E2C71FEED00E6A173 /* Project111UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project111UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FB5716C2C7203A200E6A173 /* PlanetNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetNames.swift; sourceTree = "<group>"; };
+		6FB5716D2C7203C000E6A173 /* FilmTitles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmTitles.swift; sourceTree = "<group>"; };
+		6FB5716E2C7203E800E6A173 /* GirlNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlNames.swift; sourceTree = "<group>"; };
+		6FB5716F2C7203F900E6A173 /* BoyNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoyNames.swift; sourceTree = "<group>"; };
+		6FB571742C720AEE00E6A173 /* OptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,7 @@
 		6FB5712F2C71FEEB00E6A173 = {
 			isa = PBXGroup;
 			children = (
+				6FB5716B2C72036700E6A173 /* Model */,
 				6FB5713A2C71FEEB00E6A173 /* Project111 */,
 				6FB571512C71FEED00E6A173 /* Project111Tests */,
 				6FB5715B2C71FEED00E6A173 /* Project111UITests */,
@@ -125,6 +136,18 @@
 				6FB5715E2C71FEED00E6A173 /* Project111UITestsLaunchTests.swift */,
 			);
 			path = Project111UITests;
+			sourceTree = "<group>";
+		};
+		6FB5716B2C72036700E6A173 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6FB571742C720AEE00E6A173 /* OptionTableViewCell.swift */,
+				6FB5716F2C7203F900E6A173 /* BoyNames.swift */,
+				6FB5716E2C7203E800E6A173 /* GirlNames.swift */,
+				6FB5716D2C7203C000E6A173 /* FilmTitles.swift */,
+				6FB5716C2C7203A200E6A173 /* PlanetNames.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB571752C720AF300E6A173 /* OptionTableViewCell.swift in Sources */,
 				6FB571402C71FEEB00E6A173 /* ViewController.swift in Sources */,
+				6FB571732C7207E300E6A173 /* PlanetNames.swift in Sources */,
 				6FB5713C2C71FEEB00E6A173 /* AppDelegate.swift in Sources */,
+				6FB571722C7207C200E6A173 /* FilmTitles.swift in Sources */,
+				6FB571712C72079F00E6A173 /* GirlNames.swift in Sources */,
 				6FB5713E2C71FEEB00E6A173 /* SceneDelegate.swift in Sources */,
+				6FB571702C72059000E6A173 /* BoyNames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
